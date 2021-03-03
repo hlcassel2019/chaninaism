@@ -1,0 +1,61 @@
+* {
+font-family: Consolas, monaco, monospace;
+}
+
+.header {
+ background-color: #f8f9f9;
+ text-align: center;
+ padding: 20px;
+}
+
+body {
+  background-color: #f8f9f9;
+}
+
+h1,li,p,img {
+ margin: 15px 50px;
+ color: # #212f3c;
+}
+
+a:link {
+  color: hotpink;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+a:visited {
+  color:  #a47bef;
+  text-decoration: line-through;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column
+.column.middle {
+  width: 75%;
+}
+
+/* Clear floats after the columns
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.footer {
+ background-color: #f8f9f9;
+ text-align: center;
+ padding: 10px;
+}
