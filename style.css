@@ -77,10 +77,8 @@ a:visited {
   text-decoration: line-through;
 }
 
-/* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
 }
 
 /* Left and right column */
@@ -88,17 +86,17 @@ a:visited {
   width: 25%;
 }
 
-/* Middle column
+/* Middle column */
 .column.middle {
   width: 75%;
 }
 
-/* Clear floats after the columns
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
 
 .footer {
  background-color: #f8f9f9;
