@@ -1,6 +1,45 @@
-* {
-font-family: Consolas, monaco, monospace;
+/* dotgothic16-regular - latin */
+@font-face {
+  font-family: 'DotGothic16';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/dotgothic16/dotgothic16-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/dotgothic16/dotgothic16-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/dotgothic16/dotgothic16-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/dotgothic16/dotgothic16-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/dotgothic16/dotgothic16-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/dotgothic16/dotgothic16-v1-latin-regular.svg#DotGothic16') format('svg'); /* Legacy iOS */
 }
+
+/* averia-gruesa-libre-regular - latin */
+@font-face {
+  font-family: 'Averia Gruesa Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/averia-gruesa-libre/averia-gruesa-libre-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/averia-gruesa-libre/averia-gruesa-libre-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/averia-gruesa-libre/averia-gruesa-libre-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/averia-gruesa-libre/averia-gruesa-libre-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/averia-gruesa-libre/averia-gruesa-libre-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/averia-gruesa-libre/averia-gruesa-libre-v9-latin-regular.svg#AveriaGruesaLibre') format('svg'); /* Legacy iOS */
+}
+/* megrim-regular - latin */
+@font-face {
+  font-family: 'Megrim';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/megrim/megrim-v11-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/megrim/megrim-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/megrim/megrim-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/megrim/megrim-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/megrim/megrim-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/megrim/megrim-v11-latin-regular.svg#Megrim') format('svg'); /* Legacy iOS */
+}
+
+
 
 .header {
  background-color: #f8f9f9;
@@ -12,9 +51,16 @@ body {
   background-color: #f8f9f9;
 }
 
-h1,li,p,img {
+h1 {
+  font-family: 'DotGothic16', sans-serif;;
+  margin: 15px 50px;
+  color: # #212f3c;
+}
+
+li,p,img {
  margin: 15px 50px;
  color: # #212f3c;
+ font-family: 'Averia Gruesa Libre',serif;
 }
 
 a:link {
